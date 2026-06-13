@@ -14,8 +14,8 @@ function App() {
           <input
             type="text"
             onChange={(e) => setInputValue(e.target.value)}
-            placeholder="Enter value..."
-            className="px-4 py-2 w-full border border-gray-200 rounded shadow-md my-4"
+            placeholder="Enter Value..."
+            className="px-4 py-2 w-full border border-gray-200 focus:outline-blue-400 rounded shadow-sm my-4"
           />
         </div>
         <div className="flex justify-center items-center w-full min-h-20 border border-gray-200 my-6 p-6 rounded">
